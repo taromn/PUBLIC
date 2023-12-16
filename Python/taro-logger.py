@@ -34,9 +34,11 @@ def log_out(number):
 
 
 if __name__ == "__main__":
-  for i in range(100):
+  i = 0
+  while True:
     log_out(i)
     time.sleep(1)
+    i = i + 1
 
 
 # Reference
